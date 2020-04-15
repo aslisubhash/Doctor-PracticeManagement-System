@@ -1,0 +1,7 @@
+change AllowOverride None to All, as shown below in /etc/apache2/apache2.conf file
+
+<Directory /var/www/>
+	Options Indexes FollowSymLinks
+	AllowOverride All
+	Require all granted
+</Directory>
